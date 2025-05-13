@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6e3a84c902a7eccbab8dc29d2a69dc42 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6e3a84c902a7eccbab8dc29d2a69dc42" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6e3a84c902a7eccbab8dc29d2a69dc42 = L.map(
+                "map_6e3a84c902a7eccbab8dc29d2a69dc42",
+                {
+                    center: [47.0, 28.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e1beb1063a79c54b1e6b77b0876aae13 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6e3a84c902a7eccbab8dc29d2a69dc42);
+        
+    
+            var marker_5191d9d1fea86929ed1ea4818bc8de84 = L.marker(
+                [47.7802, 28.7456],
+                {}
+            ).addTo(map_6e3a84c902a7eccbab8dc29d2a69dc42);
+        
+    
+            var icon_0f984aae0a5446fe8331634a4e56bdc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5191d9d1fea86929ed1ea4818bc8de84.setIcon(icon_0f984aae0a5446fe8331634a4e56bdc3);
+        
+    
+        var popup_603f2b1ad7596f5ece04ef30289b2619 = L.popup({"maxWidth": 300});
+
+        
+            var html_930d7bd18595946e2e11c5bcd8face15 = $(`<div id="html_930d7bd18595946e2e11c5bcd8face15" style="width: 100.0%; height: 100.0%;"><b>Stejarul lui Ștefan cel Mare</b><br>Cobîlea, Șoldănești<br>Stejar multisecular legat de domnitorul Ștefan cel Mare</div>`)[0];
+            popup_603f2b1ad7596f5ece04ef30289b2619.setContent(html_930d7bd18595946e2e11c5bcd8face15);
+        
+
+        marker_5191d9d1fea86929ed1ea4818bc8de84.bindPopup(popup_603f2b1ad7596f5ece04ef30289b2619)
+        ;
+
+        
+    
+    
+            var marker_c02933539cae096d62c7fda1048c2be8 = L.marker(
+                [46.4871, 28.3882],
+                {}
+            ).addTo(map_6e3a84c902a7eccbab8dc29d2a69dc42);
+        
+    
+            var icon_16db707dc269d8c02317ddd253358d05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c02933539cae096d62c7fda1048c2be8.setIcon(icon_16db707dc269d8c02317ddd253358d05);
+        
+    
+        var popup_9f20fb89221a715f2d9ebe4e54ee4ffc = L.popup({"maxWidth": 300});
+
+        
+            var html_b00110b942f606693a5765981095bea3 = $(`<div id="html_b00110b942f606693a5765981095bea3" style="width: 100.0%; height: 100.0%;"><b>Stejarul lui Ștefan cel Mare</b><br>Cupcui, Leova<br>Stejar secular legat de tradiții istorice locale</div>`)[0];
+            popup_9f20fb89221a715f2d9ebe4e54ee4ffc.setContent(html_b00110b942f606693a5765981095bea3);
+        
+
+        marker_c02933539cae096d62c7fda1048c2be8.bindPopup(popup_9f20fb89221a715f2d9ebe4e54ee4ffc)
+        ;
+
+        
+    
+    
+            var marker_407703731ac461d32089eece22b59da1 = L.marker(
+                [45.4701, 28.2036],
+                {}
+            ).addTo(map_6e3a84c902a7eccbab8dc29d2a69dc42);
+        
+    
+            var icon_65d9d6ac9120b167e43a1b134fdf7141 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_407703731ac461d32089eece22b59da1.setIcon(icon_65d9d6ac9120b167e43a1b134fdf7141);
+        
+    
+        var popup_a65d4a7cacaf11b7538cd3c7920a6188 = L.popup({"maxWidth": 300});
+
+        
+            var html_9edc75096062c10c85eef6ff2ba0997f = $(`<div id="html_9edc75096062c10c85eef6ff2ba0997f" style="width: 100.0%; height: 100.0%;"><b>Stejar secular</b><br>Giurgiulești, Cahul<br>Arbore protejat la marginea satului Giurgiulești</div>`)[0];
+            popup_a65d4a7cacaf11b7538cd3c7920a6188.setContent(html_9edc75096062c10c85eef6ff2ba0997f);
+        
+
+        marker_407703731ac461d32089eece22b59da1.bindPopup(popup_a65d4a7cacaf11b7538cd3c7920a6188)
+        ;
+
+        
+    
+    
+            var marker_a01790f2133c265f3154765b125fe0c4 = L.marker(
+                [47.0375, 29.2167],
+                {}
+            ).addTo(map_6e3a84c902a7eccbab8dc29d2a69dc42);
+        
+    
+            var icon_10e30f25289a22da0b06b03d51370113 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a01790f2133c265f3154765b125fe0c4.setIcon(icon_10e30f25289a22da0b06b03d51370113);
+        
+    
+        var popup_cbdb460cd7b5fd406d7e6b96ca38ef04 = L.popup({"maxWidth": 300});
+
+        
+            var html_3ecc3aff9997404c67103608da78a602 = $(`<div id="html_3ecc3aff9997404c67103608da78a602" style="width: 100.0%; height: 100.0%;"><b>Stejarul din Hîrbovăț</b><br>Hîrbovăț, Anenii Noi<br>Arbore secular în apropierea mănăstirii Hîrbovăț</div>`)[0];
+            popup_cbdb460cd7b5fd406d7e6b96ca38ef04.setContent(html_3ecc3aff9997404c67103608da78a602);
+        
+
+        marker_a01790f2133c265f3154765b125fe0c4.bindPopup(popup_cbdb460cd7b5fd406d7e6b96ca38ef04)
+        ;
+
+        
+    
+    
+            var marker_22f0cdd91af94a716ccfd6f3868c0bc9 = L.marker(
+                [47.1333, 28.3833],
+                {}
+            ).addTo(map_6e3a84c902a7eccbab8dc29d2a69dc42);
+        
+    
+            var icon_055359d6f89d9d27e4e221e15b162102 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_22f0cdd91af94a716ccfd6f3868c0bc9.setIcon(icon_055359d6f89d9d27e4e221e15b162102);
+        
+    
+        var popup_525497a4d2fab8754a5b7e63b146f045 = L.popup({"maxWidth": 300});
+
+        
+            var html_503925ee35f846ff410f66bcc616a37a = $(`<div id="html_503925ee35f846ff410f66bcc616a37a" style="width: 100.0%; height: 100.0%;"><b>Stejarul din Căpriana</b><br>Căpriana, Strășeni<br>Stejar multisecular din preajma mănăstirii Căpriana</div>`)[0];
+            popup_525497a4d2fab8754a5b7e63b146f045.setContent(html_503925ee35f846ff410f66bcc616a37a);
+        
+
+        marker_22f0cdd91af94a716ccfd6f3868c0bc9.bindPopup(popup_525497a4d2fab8754a5b7e63b146f045)
+        ;
+
+        
+    
+</script>
+</html>
